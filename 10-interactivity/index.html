@@ -7,27 +7,147 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Interactivity</title>
   </head>
-  <body>
+  <body class="p-3">
     <!-- Hover State Styling -->
+    <button
+      class="bg-black text-white py-3 px-5 rounded-lg m-3 hover:bg-orange-500 hover:text-black"
+    >
+      Hover
+    </button>
 
     <!-- Focus State Styling -->
+    <button
+      class="bg-black text-white py-3 px-5 rounded-lg m-3 focus:bg-green-500 focus:text-black"
+    >
+      Focus
+    </button>
 
     <!-- Active State Styling -->
+    <button
+      class="bg-black text-white py-3 px-5 rounded-lg m-3 active:bg-yellow-500 active:text-black"
+    >
+      Active
+    </button>
 
     <!-- Styling based on parent state -->
+    <a
+      href=""
+      class="group block max-w-xs mx-auto rounded-lg p-6 bg-white shadow-lg space-y-3 hover:bg-sky-500"
+    >
+      <h3 class="group-hover:text-white">Card title</h3>
+      <p class="group-hover:text-white">This is the card text</p></a
+    >
 
     <!-- Pseudo Classes -->
+    <ul>
+      <li class="first:bg-red-200 even:bg-green-500 odd:bg-orange-500">
+        item 1
+      </li>
+      <li class="first:bg-red-200 even:bg-green-500 odd:bg-orange-500">
+        item 2
+      </li>
+      <li class="first:bg-red-200 even:bg-green-500 odd:bg-orange-500">
+        item 3
+      </li>
+      <li class="first:bg-red-200 even:bg-green-500 odd:bg-orange-500">
+        item 4
+      </li>
+      <li class="first:bg-red-200 even:bg-green-500 odd:bg-orange-500">
+        item 5
+      </li>
+      <li class="first:bg-red-200 even:bg-green-500 odd:bg-orange-500">
+        item 6
+      </li>
+    </ul>
 
     <!-- Appearance -->
     <!-- Use appearance-none to reset any browser specific styling on an element. This utility is often used when creating custom form components. -->
+    <select class="appearance-none">
+      <option value="yes">Yes</option>
+      <option value="no">No</option>
+    </select>
+
+    <br />
 
     <!-- Cursor -->
+    <button class="bg-black text-white py-3 px-5 rounded-lg m-3 cursor-wait">
+      Submit
+    </button>
+    <button
+      class="bg-black text-white py-3 px-5 rounded-lg m-3 cursor-not-allowed"
+    >
+      Submit
+    </button>
+
+    <p class="cursor-pointer">Lorem ipsum dolor sit amet.</p>
 
     <!-- Resize -->
+    <textarea class="border border-black rounded resize-none"></textarea>
+    <textarea class="border border-black rounded resize-x"></textarea>
+    <textarea class="border border-black rounded resize-y"></textarea>
+    <textarea class="border border-black rounded resize"></textarea>
 
     <!-- User Select -->
+    <p class="select-none">Lorem, ipsum dolor sit amet consectetur.</p>
+    <p class="select-text">Lorem, ipsum dolor sit amet consectetur.</p>
+    <p class="select-all">Lorem, ipsum dolor sit amet consectetur.</p>
+    <p class="select-auto">Lorem, ipsum dolor sit amet consectetur.</p>
+
+    <a href="#item" class="block underline text-orange-400 my-6">Go to item</a>
 
     <!-- Smooth Scroll Example -->
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus
+      amet aliquid, eaque in vitae delectus omnis sunt molestiae et dicta
+      quibusdam a, aliquam dolorum expedita placeat quis error! Iusto quos
+      pariatur ut at quis labore sit rerum sapiente velit repellat, facere
+      voluptatibus, placeat impedit unde alias harum odio in earum eum. Cumque
+      fugit dolorum ea dolores dolorem laborum quas cum, assumenda vero, iusto
+      dignissimos ullam molestias eum nam non quam quidem voluptatem excepturi
+      eos ducimus itaque! Vero sapiente unde culpa cum impedit facere
+      accusantium rerum laborum. Dolorum exercitationem omnis eos animi minima
+      quos beatae, explicabo aperiam perspiciatis ducimus quia, natus laboriosam
+      illum incidunt doloribus, tempora dolor placeat alias esse quisquam autem
+      vitae eaque labore! Quis enim, nesciunt facere adipisci ratione veniam
+      maiores porro dolor magnam fugit aut quibusdam repellendus delectus,
+      repudiandae, cumque earum. Non nobis quis rem ex nesciunt ullam, cumque
+      dolor iure iste veniam, laboriosam voluptatum similique quam, ducimus
+      officia quae veritatis sed assumenda incidunt fugit excepturi impedit
+      earum molestiae. Voluptatum cumque commodi iusto velit aliquam nulla
+      incidunt tenetur soluta minus asperiores. Explicabo autem aliquam quo
+      optio aspernatur! Ab officia exercitationem sed. Saepe, minus accusantium
+      optio delectus similique ex blanditiis ducimus. Optio consequatur aliquid
+      quia deleniti nihil sint exercitationem labore eos debitis illum ullam
+      necessitatibus dicta eligendi magni, tempora, accusantium fugiat adipisci.
+      Necessitatibus neque dolorem praesentium ea voluptate voluptas laborum,
+      reiciendis enim aspernatur eligendi molestias amet quod, harum laudantium
+      tempore dicta assumenda modi eaque nam cum incidunt omnis dolor commodi
+      doloribus. Possimus optio est, voluptates architecto quia reprehenderit ea
+      necessitatibus ratione accusamus repudiandae nesciunt suscipit, reiciendis
+      similique mollitia illo nihil maiores rerum autem cum at quidem animi,
+      fuga placeat. Doloremque, autem. Molestiae quidem eius nisi aliquid, vitae
+      placeat rerum aspernatur quasi maiores repudiandae, consequuntur quam
+      illum veritatis assumenda enim tempora sed. Quod, et iusto similique
+      nostrum ducimus perferendis doloribus tempore aperiam sapiente modi!
+      Dicta, minus excepturi. Libero asperiores omnis consequatur. Vel aliquam
+      voluptates provident ullam, repellat laborum enim cum quod veniam rem
+      animi placeat sunt asperiores architecto quibusdam soluta eveniet tempore
+      hic possimus maiores ab iste officiis! Dolorem illo nisi error eum sed
+      esse non, ea, sint corporis, vel odio commodi quasi vitae quae? Assumenda,
+      eum? Ipsam iusto ipsa quod corrupti aut excepturi soluta temporibus! Quos
+      magnam ea sequi non sint minus porro debitis quas nulla id minima beatae
+      optio a alias voluptate, temporibus voluptatem dolorum distinctio labore
+      nemo, neque consectetur deserunt. Iste enim quod accusantium, quidem quos
+      vel!
+    </p>
+    <div id="item">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium eius
+      nobis rem voluptatem asperiores labore alias quae, facilis itaque
+      blanditiis suscipit obcaecati nulla molestias? Reiciendis consequuntur,
+      omnis quae sunt quasi vero libero consectetur perferendis voluptas
+      inventore dolore debitis facere iure possimus totam aliquam dolorem
+      deserunt, nobis sequi numquam. Esse, quo?
+    </div>
   </body>
 </html>
 
